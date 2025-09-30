@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // IMPORTANT: Change this to your GitHub repository URL
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/aman123443/Docker_Java_app.git'
             }
         }
         stage('Build Docker Image') {
